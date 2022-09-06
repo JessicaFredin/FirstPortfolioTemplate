@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="styles.css">
+    <title>Kontakt</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a class="logo" href="index.html"><img src="logo/logo5.png" alt="logo"></a></li>
+            <li><a href="CV.html">CV</a></li>
+            <li><a href="personligt_brev.html">Personligt brev</a></li>
+            <li><a href="projekt.html">Projekt</a></li>
+            <li><a href="kontakt.html" class="contact current">Kontakt</a></li>
+        </ul>
+    </nav>
+
+    <div class="hero-contact">
+        <h1>Contact me</h1>
+        <!-- <p>Fill in the form below to send me a message</p> -->
+    </div>
+
+    <!-- <div class="form-container">
+        <div class="form-content">
+        <form action="">
+            <label for="name">Name</label> 
+            <input type="text" id="name" required>
+
+            <label for="email">Email</label> 
+            <input type="text" id="email" required>
+
+             <label for="number">Phone number</label> 
+            <input type="text" id="number">
+
+            <label for="projects">Which one is your favorite of my projects?</label> <br>
+            <select name="projects" id="projects">
+                <option value="project1">Project 1</option>
+                <option value="project2">Project 2</option>
+                <option value="project3">Project 3</option>
+                <option value="project4">Project 4</option>
+                <option value="project5">Project 5</option>
+            </select>  <br>
+
+            <p>Which is your favorite language?</p>
+                <label for="html">HTML</label>
+                <input type="radio" id="html" name="favorite_language">
+            
+                <label for="css">CSS</label>
+                <input type="radio" id="css" name="favorite_language">
+           
+                <label for="javascript">JavaScript</label>
+                <input type="radio" id="javascript" name="favorite_language">
+
+                <label for="coding">Coding</label>
+                <input type="checkbox" name="hobbies" id="coding" value="coding">
+                
+                <label for="drawing">Drawing</label>
+                <input type="checkbox" name="hobbies" id="drawing" value="drawing">
+                
+                <label for="music">Music</label>
+                <input type="checkbox" name="hobbies" id="music" value="music">
+                
+           
+
+            <textarea name="" id="message" cols="52" rows="10" placeholder="Send a message..."></textarea>
+
+            <input type="button" value="Send" id="form-btn">
+        </form> 
+    </div>
+    </div> -->
+
+
+
+
+    <!-- <div class="testing-form-container">
+        <div class="testing-form-content-left">
+        
+            <label for="fname">Förnamn</label> <br>
+            <input class="leftside" type="text" id="fname">
+
+            <label for="lname">Efternamn</label> <br>
+            <input class="leftside" type="text" id="lname">
+
+            <label for="email">Email</label> <br>
+            <input class="leftside" type="text" id="email">
+            
+        </div>
+        <div class="testing-form-content-right">
+          
+            <label for="fnameRight">Förnamn</label> <br>
+            <input class="rightside" type="text" id="fnameRight">
+
+            <label for="lnameRight">Efternamn</label> <br>
+            <input class="rightside" type="text" id="lnameRight">
+
+            <label for="emailRight">Email</label> <br>
+            <input class="rightside" type="text" id="emailRight">
+        </div>
+    </div> -->
+
+
+<div class="testing-form-container">
+    <form name="message" method="post">
+        <section>
+            <div style="float: left; margin-right: 50px; width: 360px;">
+                <label for="fname">First name</label>
+                <input id="fname" type="text" name="fname">
+            </div>
+            
+            <div style="float:left; width: 360px;">
+                <label for="lname">Last name</label>
+                <input id="lname" type="text" name="lname">
+            </div>
+    
+            <!-- <br style="clear:both;" /> -->
+        </section>
+
+        <section>
+            <div style="float: left; margin-right: 50px; width: 360px;">
+                <label for="email">Email</label>
+                <input id="email" type="text" name="email">
+            </div>
+            
+            <div style="float:left; width: 360px;">
+                <label for="number">Phone number</label>
+                <input id="number" type="text" name="number">
+            </div>
+    
+            <!-- <br style="clear:both;" /> -->
+        </section>
+
+        <section>
+                <label for="projects">Which one of my projects is your favorite?</label>
+                <select name="projects" id="projects" style="float: left; margin-right: 50px; width: 770px;">
+                    <option value="project1">Project 1</option>
+                    <option value="project2">Project 2</option>
+                    <option value="project3">Project 3</option>
+                    <option value="project4">Project 4</option>
+                    <option value="project5">Project 5</option>
+                </select>
+        </section>
+
+        <section>
+            <label>Which is your favorite language?</label>
+            <div style="float: left; margin-right: 50px; width: 240px;">
+                <label for="html">HTML</label>
+                <input id="html" type="radio" name="favorite_language">
+            </div>
+
+            <div style="float: left; margin-right: 50px; width: 240px;">
+                <label for="css">CSS</label>
+                <input id="css" type="radio" name="favorite_language">
+            </div>
+
+            <div style="float: left; width: 240px;">
+                <label for="javascript">JavaScript</label>
+                <input id="javascript" type="radio" name="favorite_language">
+            </div>  
+        </section>
+
+        <section>  
+            <div style="float: left; margin-right: 50px; width: 240px;">
+                <label for="coding">Coding</label>
+                <input type="checkbox" name="hobbies" id="coding">
+            </div>
+
+            <div style="float: left; margin-right: 50px; width: 240px;">
+                <label for="drawing">Drawing</label>
+                <input type="checkbox" name="hobbies" id="drawing">
+            </div>
+
+            <div style="float: left; width: 240px;">
+                <label for="music">Music</label>
+                <input type="checkbox" name="hobbies" id="music">
+            </div>
+        </section>
+
+        <section>
+            <div style="float: left;">
+                <textarea id="message" cols="102" rows="10" placeholder="Send a message..."></textarea>
+            </div>
+        </section>
+
+        <section>
+            <div style="float: left; width: 770px;">
+                <input type="button" value="Send" id="form-btn">
+            </div>
+        </section>
+
+
+
+        
+
+        
+
+
+
+       
+
+        <!--
+            <textarea name="" id="message" cols="52" rows="10" placeholder="Send a message..."></textarea>
+
+            <input type="button" value="Send" id="form-btn">
+        </form>  -->
+    
+
+    </form>
+</div>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
